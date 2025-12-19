@@ -30,7 +30,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}cicd:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cicd:latest
           platforms: linux/arm64
 
   deploy:
